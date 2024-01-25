@@ -13,7 +13,7 @@ def fizzbuzz():
     int: The rest of the numbers
 
     """
-for i in range(1, 100):
+for i in range(1, 101):
     if i % 3 == 0:
         print("Fizz", end=" ")
     elif i % 5 == 0:
