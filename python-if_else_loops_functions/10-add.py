@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def add(a, b):
-	"""
+    """
     Adds two integers and returns the result.
 
     Parameters:
@@ -11,4 +11,4 @@ def add(a, b):
     int: the value of a + b
 
     """
-	return(a + b)
+    return(a + b)

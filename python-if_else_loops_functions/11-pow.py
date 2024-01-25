@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def pow(a, b):
-	"""
+    """
     Computes a to the power of b and return the value.
 
     Parameters:
@@ -11,4 +11,4 @@ def pow(a, b):
     int: the value of a to the power of b
 
     """
-	return(a ** b)
+    return(a ** b)
