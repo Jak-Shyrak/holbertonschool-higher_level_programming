@@ -11,5 +11,5 @@ def pow(a, b):
     int: the value of a to the power of b
 
     """
-    
-    return(a ** b)
+
+    return (a ** b)
