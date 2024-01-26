@@ -5,4 +5,4 @@ if __name__ == '__main__':
     print(len(argv) - 1, "arguments")
 
     for i in range(1, len(argv)):
-        print(argv[i])
+        print("{}: {}".format(i, argv[i]))
