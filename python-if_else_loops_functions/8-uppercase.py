@@ -1,17 +1,11 @@
 #!/usr/bin/python3
 def uppercase(str):
-    """
-    Prints a string in uppercase
-
-    Parameters:
-    - str (str): character to check
-
-    Returns:
-    str: A string in uppercase
-
-    """
-    for c in str:
-        if ord(c) >= 97 and ord(c) <= 122:
-            c = chr(ord(c) - 32)
-        print("{}".format(c), end="")
+    result = 0
+    for i in str:
+        if ord(i) >= 97 and ord(i) <= 122:
+            result = ord(i) - 32
+        else:
+            result = ord(i)
+        print("{}".format(chr(result)), end="")
     print("")
+    return
