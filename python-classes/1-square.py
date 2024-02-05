@@ -4,5 +4,5 @@
 
 class Square:
     """Definition of private size in square"""
-    def __init__(self, x):
-        self.__size = x
+    def __init__(self, size):
+        self.__size = size
